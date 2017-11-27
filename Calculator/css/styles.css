@@ -1,0 +1,43 @@
+/*
+* CSS Styling for calculator
+* @Author: Keith Rodgers
+* @Version: 11/21/17
+*/
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+p, div {
+    padding: 5px 20px;
+}
+
+input[type=text] {
+	border: solid 4px green;
+}
+
+.bad {
+	border: solid 4px red!important;
+	background:pink;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+body leftCol {
+	padding-left: 30%;
+    float: left;
+    max-width: 50%;
+    margin: 0;
+}
+
+body rightCol {
+    padding: 1em;
+    overflow: hidden;
+}

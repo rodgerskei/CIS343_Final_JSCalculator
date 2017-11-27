@@ -1,0 +1,42 @@
+<!--
+- Html view for calculator
+- @Author: Keith Rodgers
+- @Version: 11/21/17
+-->
+<!DOCTYPE html>
+<html>
+
+<!--cdn jquery, javascript file, css styling-->
+<head>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/common.js"> </script>
+	<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<div class="container">
+	<!-- Title and info -->
+	<header>
+		<title>JavascriptCalculator</title>
+		<h2>Basic Calculator (Javascript)</h2>
+		<h3 style="color:red;"><i>"Being the best basic calculator since 2017"</i></h3>
+		<h4>Valid operations are + - * / ^</h4>
+		<h5><b>NOTE: only one operation may be used at a time</b></h5>
+	</header>
+
+	<!-- User input, button, output-->
+	<body>
+		<leftCol>
+			<p>Input: <input type="text" name="userInput" id="userInput">
+			<button type="button" id="calc">Calculate!</button>
+			<button type="button" id="clear">Clear</button>
+		</p>
+		</leftCol>
+		<rightCol>	
+			<div class="row" id="results"></div>
+			<div class="row" id="total"></div>
+		</rightCol>
+	</body>
+
+	<footer>@Author: Keith Rodgers 2017</footer>
+</div>
+</html>
